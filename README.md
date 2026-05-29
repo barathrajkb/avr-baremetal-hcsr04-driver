@@ -1,4 +1,4 @@
-# 📡 AVR Assembly HC-SR04 Ultrasonic Sensor Driver
+# 📡 AVR Bare Metal HC-SR04 Ultrasonic Sensor Driver
 
 > A complete HC-SR04 ultrasonic sensor driver developed entirely in AVR Assembly Language using the ATmega328P Timer Input Capture Unit for hardware-assisted pulse width measurement.
 
