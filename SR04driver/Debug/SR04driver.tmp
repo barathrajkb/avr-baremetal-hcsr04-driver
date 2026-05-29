@@ -1,0 +1,64 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+  <FILE>C:/Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328pdef.inc</FILE>
+  <FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\globals.asm</FILE>
+  <FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\tim1.asm</FILE>
+  <FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE>
+  <FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\uart.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\Debug\SR04driver.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>SR04driver.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>SR04driver.map</FILE>
+  <FILE>SR04driver.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <rise_time_l><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\globals.asm</FILE><LINE>10</LINE></rise_time_l>
+  <rise_time_h><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\globals.asm</FILE><LINE>13</LINE></rise_time_h>
+  <fall_time_l><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\globals.asm</FILE><LINE>16</LINE></fall_time_l>
+  <fall_time_h><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\globals.asm</FILE><LINE>19</LINE></fall_time_h>
+  <pulse_width_l><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\globals.asm</FILE><LINE>22</LINE></pulse_width_l>
+  <pulse_width_h><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\globals.asm</FILE><LINE>25</LINE></pulse_width_h>
+  <distance_l><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\globals.asm</FILE><LINE>28</LINE></distance_l>
+  <distance_h><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\globals.asm</FILE><LINE>31</LINE></distance_h>
+  <reset><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\main.asm</FILE><LINE>28</LINE></reset>
+  <TIM1_Init><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\tim1.asm</FILE><LINE>8</LINE></TIM1_Init>
+  <HCSR04_Init><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>8</LINE></HCSR04_Init>
+  <HCSR04_Trigger><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>13</LINE></HCSR04_Trigger>
+  <trigger_delay><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>16</LINE></trigger_delay>
+  <HCSR04_WaitForEchoRise><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>22</LINE></HCSR04_WaitForEchoRise>
+  <wait_rise><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>28</LINE></wait_rise>
+  <rise_detected><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>36</LINE></rise_detected>
+  <HCSR04_WaitForEchoFall><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>52</LINE></HCSR04_WaitForEchoFall>
+  <wait_fall><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>57</LINE></wait_fall>
+  <fall_detected><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>65</LINE></fall_detected>
+  <HCSR04_ProcessMeasurement><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>81</LINE></HCSR04_ProcessMeasurement>
+  <division_loop><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>104</LINE></division_loop>
+  <division_done><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>121</LINE></division_done>
+  <no_overflow><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>118</LINE></no_overflow>
+  <HCSR04_MeasureDistance><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\hcsr04.asm</FILE><LINE>127</LINE></HCSR04_MeasureDistance>
+  <UART_Init><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\uart.asm</FILE><LINE>8</LINE></UART_Init>
+  <UART_TxByte><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\uart.asm</FILE><LINE>26</LINE></UART_TxByte>
+  <wait_udre><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\uart.asm</FILE><LINE>27</LINE></wait_udre>
+  <UART_TxPacket><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\uart.asm</FILE><LINE>37</LINE></UART_TxPacket>
+  <main><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\main.asm</FILE><LINE>45</LINE></main>
+  <Delay_100ms><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\main.asm</FILE><LINE>52</LINE></Delay_100ms>
+  <outer_loop><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\main.asm</FILE><LINE>54</LINE></outer_loop>
+  <middle_loop><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\main.asm</FILE><LINE>57</LINE></middle_loop>
+  <inner_loop><FILE>C:\Users\barat\Documents\Atmel Studio\7.0\sr04driver\SR04driver\main.asm</FILE><LINE>60</LINE></inner_loop>
+ </LABELS>
+</ASSEMBLER_INFO>
